@@ -35,7 +35,7 @@ const authMiddleware = (req, res, next) => {
         return res.json({
             status: false,
             statusCode: 404,
-            message: "please login"
+            message: "please login proper"
         })
     }
     else {
